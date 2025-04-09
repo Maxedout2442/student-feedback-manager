@@ -3,14 +3,14 @@
 ```bash
 student-feedback-manager/
 │
-├── feedback_entry.py               # Collect student feedback
-├── score_calculator.py             # Compute average score
-├── feedback_summary.py             # Summarise feedback (v1.0.1)
-├── report_generator.py             # Export feedback to txt (v1.1.0)
-├── search_feedback.py              # Search feedback by student name (v1.2.0)
-├── count_feedback.py               # Count total entries (v1.2.0)
+├── feedback_entry.py               
+├── score_calculator.py             
+├── feedback_summary.py             
+├── report_generator.py             
+├── search_feedback.py              
+├── count_feedback.py              
 │
-├── tests/                          # Test cases for all features
+├── tests/                          
 │   ├── test_feedback_entry.py
 │   ├── test_score_calculator.py
 │   ├── test_feedback_summary.py
@@ -20,13 +20,13 @@ student-feedback-manager/
 │
 ├── .github/
 │   └── workflows/
-│       └── python-app.yml          # GitHub Actions Workflow for pytest
+│       └── python-app.yml          
 │
-├── README.md                       # Project Overview & Roadmap
-├── LICENSE                         # License file
-├── CONTRIBUTING.md                 # Contribution guidelines
-├── CODE_OF_CONDUCT.md              # Code of conduct
-├── CHANGELOG.md                    # Version-wise updates
-├── TEAM_LOG.md                     # Team contributions log
+├── README.md                       
+├── LICENSE                        
+├── CONTRIBUTING.md                 
+├── CODE_OF_CONDUCT.md              
+├── CHANGELOG.md                    
+├── TEAM_LOG.md                     
 │
-└── requirements.txt                # Python dependencies (if any)
+└── requirements.txt                
